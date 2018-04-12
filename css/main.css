@@ -1,0 +1,336 @@
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #ffffff;
+}
+.header-bcq{
+
+}
+.btn-style {
+    font-size: 22px;
+    height: 60px;
+    background: #130e27;
+    color: #ffff;
+    font-weight: 600;
+    border-color: #0c0623;
+    border-radius: 5px;
+}
+/*-------------------------description------------------------------------------------*/
+
+.description {
+    background: #5dbbc1;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+    /*padding-left: 120px;*/
+    /*padding-right: 120px;*/
+}
+.description-text {
+    /*padding-top: 30px;*/
+    /*padding-bottom: 15px;*/
+    /*padding-left: 120px;*/
+    /*padding-right: 120px;*/
+}
+.btn-description {
+    /*margin: 30px 120px;*/
+
+    min-width: 270px;
+}
+
+/*-----------------pricing-----------------------------------------------*/
+
+.pricing-wrapper {
+     text-align: center;
+     font-weight: 600;
+     font-size: 50px;
+
+    background: #efefef;
+    height: 100%;
+    margin: 0 -15px;
+}
+.pricing-caption {
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    color: #130e27;
+    font-weight: 600;
+    font-size: 50px;
+}
+.pricing-block {
+    padding: 16px 16px;
+}
+.pricing-block-content {
+    color: #130e27;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pricing-type {
+    font-size: 22px;
+}
+.pricing-offer {
+    font-size: 60px;
+}
+.pricing-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.pricing-btn-blue {
+    min-width: 205px;
+    min-height: 50px;
+    background-color: #5dbbc1;
+    border-color: #5dbbc1;
+
+    color: #130e27;
+    font-size: 22px;
+}
+.pricing-btn-dark-blue {
+    min-width: 205px;
+    min-height: 50px;
+    background-color: #130e27;
+    border-color: #130e27;
+
+    color: #ffffff;
+    font-size: 22px;
+}
+.pricing-block-popular {
+    padding: 16px 16px;
+}
+.pricing-block-popular-content {
+    color: #130e27;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---------------------element-popular--------------*/
+.popular {
+    position: absolute;
+    bottom: 97%;
+
+    font-size: 16px;
+}
+.popular-text {
+    position: absolute;
+    top: -81px;
+    right: -61px;
+    transform: rotate(315deg);
+}
+.triangle-topleft {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #5dbbc1;
+    border-right: 100px solid transparent;
+    border-top-left-radius: 5px;
+}
+.triangle-downriht {
+    z-index: 2;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #ffffff;
+}
+
+/*---------------------slider--------------------*/
+.slider-xs{
+    padding: 0 30px;
+}
+.carousel-item {
+    padding-top: 16px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #5dbbc1;
+    border-radius: 5px;
+}
+
+/*--------------------------bottom---------------------------------------*/
+.bottom-content {
+    color: #130e27;
+    /*margin-right: 100px;*/
+    /*margin-left: 85px;*/
+}
+.tesmonial-caption {
+    padding-top: 30px;
+    padding-bottom: 44px;
+    /*padding-left: 66px;*/
+
+    text-align: center;
+
+    color: #130e27;
+    font-weight: 600;
+    /*font-size: 50px;*/
+
+}
+.dj-bravo {
+    background: #5dbbc1;
+    border-radius: 5px;
+    margin-left: -20px;
+    margin-right: 15px;
+    padding: 25px 15px;
+    color: #ffffff;
+}
+.dj-img {
+    position: absolute;
+    display: block;
+    box-shadow: black;
+    left: 75%;
+    bottom: 5%;
+}
+.tess {
+    background: #efefef;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*-----------------------gallery------------------*/
+.gallery-caption {
+    padding-top: 30px;
+    padding-bottom: 44px;
+
+    text-align: center;
+    color: #5dbbc1;
+}
+.gallery-link {
+    display: block;
+    margin: 0 auto;
+
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+/*--------------------footer---------------------------*/
+.footer-wrapper {
+    background: #130e27;
+    bottom: 0;
+    min-height: 183px;
+    padding-top: 80px;
+    padding-right: 85px;
+    padding-left: 100px;
+
+}
+.footer-link {
+    color: #5dbbc1;
+}
+.footer-link:hover {
+    color: #23bfc1;
+}
+.footer-logo {
+    margin-top: -25px;
+    color: #5dbbc1;
+    text-decoration: none;
+}
+
+.footer-logo:hover {
+    text-decoration: none;
+    color: #5dbbc1;
+}
+
+/*-----------------media-quest----------------------------*/
+
+@media (min-width: 10px) {
+
+    .header-wrapper, .service-wrapper, .description, .bottom-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pricing-block-row {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .hide-block {
+        height: 20px;
+    }
+    .logo-text{
+        padding: 0 15px;
+
+        font-size: 45px;
+        line-height: 30px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .form-wrapper {
+        margin: 0 10px;
+    }
+    .text-dark .tesmonial-caption, .gallery-caption{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .btn-description {
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+    .header-wrapper, .service-wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pricing-block-row {
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+
+    .hide-block {
+        height: 40px;
+    }
+    .logo-text {
+        font-size: 60px;
+        line-height: 35px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+     }
+    .text-dark, .tesmonial-caption, .gallery-caption {
+        font-size: 40px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+
+}
+
+
+
+@media (min-width: 980px) {
+    .header-wrapper, .service-wrapper, .description, .bottom-content {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .pricing-block-row {
+        margin-left: calc(100px - 16px);
+        margin-right: calc(100px - 16px);
+    }
+    .hide-block {
+        height: 80px;
+    }
+    .logo-text{
+        font-size: 78px;
+        line-height: 65px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .text-dark, .tesmonial-caption, .gallery-caption {
+        font-size: 50px;
+        line-height: 25px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+}
+
+

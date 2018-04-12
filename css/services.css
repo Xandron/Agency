@@ -1,0 +1,33 @@
+.service-wrapper {
+    color: #000;
+    font-size: 20px;
+
+    /*border: red 1px solid;*/
+    /*margin-left: 100px;*/
+    /*margin-right: 100px;*/
+
+    padding-top: 20px;
+}
+
+.service-caption-partone {
+    color: #5dbbc1;
+    margin-right: 10px;
+
+    font-weight: 600;
+}
+.service-caption-parttwo {
+    color: #130e27;
+}
+.service-content {
+    min-width: 100%;
+}
+.service-ico {
+    margin: 0 auto;
+    max-width: 100%;
+
+    text-align: center;
+}
+.shape {
+    width: 100%;
+    min-height: 185px;
+}
